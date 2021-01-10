@@ -1,11 +1,11 @@
 #pragma once
 
-int const PACKET_SIZE = 20;
-int const PAYLOAD_SIZE = 10;
-int const CRC_SIZE = 4;
-int const PACKET_SIZE_WITHOUT_CRC = PACKET_SIZE - CRC_SIZE;
-int const INIT_PACKETS_COUNT = 28;
-int const PARAMETERS_COUNT = 10;
+const int PACKET_SIZE = 20;
+const int PAYLOAD_SIZE = 10;
+const int CRC_SIZE = 4;
+const int PACKET_SIZE_WITHOUT_CRC = PACKET_SIZE - CRC_SIZE;
+const int INIT_PACKETS_COUNT = 38;
+const int PARAMETERS_COUNT = 10;
 
 /*Source/target field*/
 enum class Source
